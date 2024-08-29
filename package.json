@@ -1,0 +1,14 @@
+{
+  "name": "repro-14106",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "css": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
